@@ -11,3 +11,6 @@ java SMBOMain -f data/svm/ -dataset A9A -tries 10 -s tst-r -bandwidth 0.1 -hpRan
 
 ##Meta-Data
 The two meta-data sets used in our experiments are available in the folder "data". More information is available on our project website. Visualizations of the SVM meta-data set can be found [here](http://www.hylap.org/meta_data/svm/) and the creation of the Weka meta-data set can be found [here](http://www.hylap.org/meta_data/weka/).
+
+##Dependencies
+Our code makes use of [Apache Commons Math](https://commons.apache.org/proper/commons-math/). The library is provided in the folder "lib".
