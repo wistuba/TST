@@ -4,7 +4,7 @@ We provide here the source code for our paper ["Two-Stage Transfer Surrogate Mod
 ## Usage
 The class SMBOMain.java contains the main function.
 Executing the program without parameters will print a help describing all parameters.
-Following line is executes SMBO for 10 trials using TST-R on the data set A9A using the meta-data set from all remaining 49 other data sets.
+Following line executes SMBO for 10 trials using TST-R on the data set A9A using the meta-data set from all remaining 49 other data sets.
 ```
 java SMBOMain -f data/svm/ -dataset A9A -tries 10 -s tst-r -bandwidth 0.1 -hpRange 6 -hpIndicatorRange 3
 ```
